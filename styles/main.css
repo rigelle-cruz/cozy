@@ -1,7 +1,21 @@
 body {
-  background-color: #d2eaff;
+  margin: 0;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  animation: gradientAnimation 10s linear infinite;
+  background: linear-gradient(45deg, #d2eaff, #f3ebfe, #f5f7ff, #ffffff);
+  background-size: 400% 400%;
 }
 
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
 .base {
   background-image: url("/assets/room/room.PNG");
   background-size: 60%;
