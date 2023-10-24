@@ -4,9 +4,10 @@ body {
   top: 0;
   left: 0;
   background: #ddddfd;
+  cursor: url('/assets/cursor/cursor_default.png'), auto;
 }
 
- .room {
+.room {
   background-image: url('/assets/room/room.PNG');
   background-size: 1000px;
   background-repeat: no-repeat;
@@ -15,11 +16,11 @@ body {
 }
 
 .draggable {
-  cursor: grab;
+  cursor: url('/assets/cursor/cursor_grab.png'), grab;
 }
 
 .draggable:active {
-  cursor: grabbing;
+  cursor: url('/assets/cursor/cursor_grabbing.png'), grabbing;
 }
 
 #wall-decor {
