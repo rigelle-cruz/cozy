@@ -27,11 +27,13 @@ body {
 #item {
   position: absolute;
   min-width: 30%;
+  transform: translate(50px, 50px);
 }
 
 #item-2 {
   position: absolute;
   min-width: 30%;
+  transform: translate(150px, 150px);
 }
 
 img {
