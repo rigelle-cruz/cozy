@@ -14,16 +14,32 @@ body {
   height: 100vh;
 }
 
-#item {
+#comp-chair {
   position: absolute;
   min-width: 30%;
   transform: translate(50px, 50px);
 }
 
-#item-2 {
+#table {
   position: absolute;
   min-width: 30%;
   transform: translate(150px, 150px); 
+}
+
+#lamp-off {
+  position: absolute;
+  min-width: 10%;
+  transform: translate(150px, 150px); 
+}
+
+.lamp {
+  background: none; 
+  border: none; 
+  color: inherit; 
+  padding: 0; 
+  font: inherit; 
+  cursor: pointer; 
+  outline: none;
 }
 
 img {
