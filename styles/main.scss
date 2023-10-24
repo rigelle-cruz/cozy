@@ -14,6 +14,14 @@ body {
   height: 100vh;
 }
 
+.draggable {
+  cursor: grab;
+}
+
+.draggable:active {
+  cursor: grabbing;
+}
+
 #wall-decor {
   position: absolute;
   transform: translate(20px, 368px);
