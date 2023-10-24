@@ -26,7 +26,12 @@ body {
 
 #item {
   position: absolute;
-  padding: 10px;
+  min-width: 30%;
+}
+
+#item-2 {
+  position: absolute;
+  min-width: 30%;
 }
 
 img {
