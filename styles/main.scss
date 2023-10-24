@@ -14,16 +14,14 @@ body {
   height: 100vh;
 }
 
+img {
+  width: 30%;
+}
+
 #wall-decor {
   position: absolute;
   min-width: 30%;
   transform: translate(20px, 368px);
-}
-
-#comp-chair {
-  position: absolute;
-  min-width: 30%;
-  transform: translate(50px, 50px);
 }
 
 #table {
@@ -32,33 +30,34 @@ body {
   transform: translate(150px, 150px); 
 }
 
+#comp-chair {
+  position: absolute;
+  min-width: 30%;
+  transform: translate(50px, 50px);
+}
+
 #lamp-container {
   position: absolute;
   transform: translate(150px, 70px);
-}
 
-#light-source {
-  width: 100px;
-  height: 100px;
-  background-color: #ff8c00;
-  border-radius: 50%;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  background: radial-gradient(circle, #ffe562, transparent 80%);
-  filter: brightness(2);
-  transform: translate(98px, -120px)
-}
-
-.lamp {
-  background: none; 
-  border: none;
-  cursor: pointer; 
-  outline: none;
-}
-
-
-img {
-  width: 30%;
-  height: auto;
+  #light-source {
+    width: 100px;
+    height: 100px;
+    background-color: #ff8c00;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    background: radial-gradient(circle, #ffe562, transparent 80%);
+    filter: brightness(2);
+    transform: translate(98px, -120px)
+  }
+  
+  .lamp {
+    background: none; 
+    border: none;
+    cursor: pointer; 
+    outline: none;
+  }
+  
 }
 
