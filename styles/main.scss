@@ -26,18 +26,26 @@ body {
   transform: translate(150px, 150px); 
 }
 
-#lamp-off {
+#lamp-container {
   position: absolute;
   min-width: 10%;
-  transform: translate(150px, 150px); 
+  transform: translate(150px, 150px);
+}
+
+#light-source {
+  width: 100px;
+  height: 100px;
+  background-color: #ffe562;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  box-shadow: 0 0 10px 10px rgba(255, 229, 98, 0.7); 
+  transform: translate(98px, -136px)
 }
 
 .lamp {
   background: none; 
-  border: none; 
-  color: inherit; 
-  padding: 0; 
-  font: inherit; 
+  border: none;
   cursor: pointer; 
   outline: none;
 }

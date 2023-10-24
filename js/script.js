@@ -1,6 +1,6 @@
 dragElement(document.getElementById("comp-chair"));
 dragElement(document.getElementById("table"));
-dragElement(document.getElementById("lamp-off"));
+dragElement(document.getElementById("lamp-container"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
