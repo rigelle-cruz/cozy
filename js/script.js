@@ -1,5 +1,6 @@
-dragElement(document.getElementById("comp-chair"));
+dragElement(document.getElementById("wall-decor"));
 dragElement(document.getElementById("table"));
+dragElement(document.getElementById("comp-chair"));
 dragElement(document.getElementById("lamp-container"));
 
 function dragElement(elmnt) {
