@@ -35,12 +35,13 @@ body {
 #light-source {
   width: 100px;
   height: 100px;
-  background-color: #ffe562;
+  background-color: #ff8c00;
   border-radius: 50%;
   opacity: 0;
   transition: opacity 0.5s ease;
-  box-shadow: 0 0 10px 10px rgba(255, 229, 98, 0.7);
-  transform: translate(98px, -136px);
+  background: radial-gradient(circle, #ffe562, transparent 80%);
+  filter: brightness(2);
+  transform: translate(98px, -120px);
 }
 
 .lamp {
