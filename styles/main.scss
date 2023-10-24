@@ -6,39 +6,48 @@ body {
   background: #ddddfd;
 }
 
-.base {
+ .room {
   background-image: url('/assets/room/room.PNG');
-  background-size: 60%;
+  background-size: 1000px;
   background-repeat: no-repeat;
   background-position: center center;
   height: 100vh;
 }
 
-img {
-  width: 30%;
-}
-
 #wall-decor {
   position: absolute;
-  min-width: 30%;
   transform: translate(20px, 368px);
+
+  img {
+    width: 200px;
+  }
 }
 
 #table {
   position: absolute;
-  min-width: 30%;
-  transform: translate(150px, 150px); 
+  transform: translate(125px, 150px);
+  
+  img {
+    width: 400px;
+  }
 }
 
 #comp-chair {
   position: absolute;
-  min-width: 30%;
   transform: translate(50px, 50px);
+
+  img {
+    width: 200px;
+  }
 }
 
-#lamp-container {
+#lamp {
   position: absolute;
-  transform: translate(150px, 70px);
+  transform: translate(250px, 70px);
+
+  img {
+    width: 100px;
+  }
 
   #light-source {
     width: 100px;
@@ -49,10 +58,10 @@ img {
     transition: opacity 0.5s ease;
     background: radial-gradient(circle, #ffe562, transparent 80%);
     filter: brightness(2);
-    transform: translate(98px, -120px)
+    transform: translate(5px, -120px)
   }
   
-  .lamp {
+  .lamp-button {
     background: none; 
     border: none;
     cursor: pointer; 

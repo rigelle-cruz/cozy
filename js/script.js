@@ -1,7 +1,7 @@
 dragElement(document.getElementById("wall-decor"));
 dragElement(document.getElementById("table"));
 dragElement(document.getElementById("comp-chair"));
-dragElement(document.getElementById("lamp-container"));
+dragElement(document.getElementById("lamp"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
