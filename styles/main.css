@@ -23,3 +23,9 @@ body {
   background-position: center center;
   height: 100vh;
 }
+
+#item {
+  position: absolute;
+  background-color: red;
+  padding: 10px;
+}
