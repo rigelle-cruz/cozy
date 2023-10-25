@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
 dragElement(document.getElementById("wall-decor"));
 dragElement(document.getElementById("table"));
 dragElement(document.getElementById("comp-chair"));
@@ -37,17 +39,10 @@ function dragElement(elmnt) {
   }
 }
 
-function resetRoom() {
-  document.getElementById("wall-decor").style.transform = "initial";
-  document.getElementById("table").style.transform = "initial";
-  document.getElementById("comp-chair").style.transform = "initial";
-  document.getElementById("lamp").style.transform = "initial";
-}
-
-dragElement(document.getElementById("wall-decor"));
-dragElement(document.getElementById("table"));
-dragElement(document.getElementById("comp-chair"));
-dragElement(document.getElementById("lamp"));
-
-const refreshButton = document.getElementById("refresh");
-refreshButton.addEventListener("click", resetRoom);
+const initialPositions = {
+  wallDecor: { x: 20, y: 368 },
+  table: { x: 125, y: 150 },
+  compChair: { x: 50, y: 50 },
+  lamp: { x: 250, y: 70 },
+};
+});
