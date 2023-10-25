@@ -7,41 +7,11 @@
   <title>Cozy</title>
 </head>
 <body>
-
-  <div class="room hidden">
-
-    <div id="wall-decor" class="draggable">
-    <img src="assets/furniture/wall-decor.svg" alt="wall-decor">
-    </div>
-
-    <div id="table" class="draggable">
-    <img src="assets/furniture/table.svg" alt="table">
-    </div>
-
-    <div id="comp-chair" class="draggable">
-    <img src="assets/furniture/comp-chair.svg" alt="comp-chair">
-    </div>
-
-    <div id="lamp" class="draggable">
-      <button class="lamp-button">
-        <img id="lamp-image" src="assets/furniture/lamp-off.svg" alt="lamp-off">
-      </button>
-      <div id="light-source"></div>
-    </div>
-
-    <button id="refresh" class="clear-button">
-      clear room
-    </button>
-
+   <!-- Intro Screen -->
+  <div id="intro-screen">
+    <button id="start-button" onclick="fadeAndRedirect()">COZY <span class="start">[    click to start   ]</span></button>
   </div>
 
-   <!-- Intro Screen -->
-   <!-- <div id="intro-screen">
-    <button id="start-button">COZY <span class="start">[    click to start   ]</span></button>
-  </div> -->
-
-  <script src="js/script.js"></script>
-  <script src="js/lamp.js"></script>
   <script src="js/intro.js"></script>
 </body>
 </html>
