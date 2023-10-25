@@ -112,6 +112,7 @@ body {
   transform: translate(5px, -120px);
 }
 #lamp .lamp-button {
+  cursor: url("/assets/cursor/cursor_select.png"), pointer;
   background: none;
   border: none;
   cursor: pointer;
