@@ -39,10 +39,4 @@ function dragElement(elmnt) {
   }
 }
 
-const initialPositions = {
-  wallDecor: { x: 20, y: 368 },
-  table: { x: 125, y: 150 },
-  compChair: { x: 50, y: 50 },
-  lamp: { x: 250, y: 70 },
-};
 });
