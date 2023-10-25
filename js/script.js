@@ -36,3 +36,18 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+function resetRoom() {
+  document.getElementById("wall-decor").style.transform = "initial";
+  document.getElementById("table").style.transform = "initial";
+  document.getElementById("comp-chair").style.transform = "initial";
+  document.getElementById("lamp").style.transform = "initial";
+}
+
+dragElement(document.getElementById("wall-decor"));
+dragElement(document.getElementById("table"));
+dragElement(document.getElementById("comp-chair"));
+dragElement(document.getElementById("lamp"));
+
+const refreshButton = document.getElementById("refresh");
+refreshButton.addEventListener("click", resetRoom);
