@@ -1,10 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@700&display=swap");
 body {
   margin: 0;
   overflow: hidden;
   top: 0;
   left: 0;
   background: #ddddfd;
-  cursor: url("/assets/cursor/cursor_default.png"), auto;
+  cursor: url("/assets/cursor/cursor_default.png"), default;
+}
+
+#intro-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ddddfd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#start-button {
+  cursor: url("/assets/cursor/cursor_select.png"), pointer;
+  background: none;
+  border: none;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 200px;
+  letter-spacing: 10px;
+  color: #687fca;
+  font-family: "Shantell Sans", cursive;
+}
+#start-button .start {
+  font-family: "Shantell Sans", cursive;
+  font-size: 30px;
+  color: #7f90c9;
+  letter-spacing: 10px;
 }
 
 .room {
