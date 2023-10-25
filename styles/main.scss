@@ -52,6 +52,20 @@ body {
   height: 100vh;
 }
 
+.room-fade-in {
+  animation: fadeIn 5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 .draggable {
   cursor: url('/assets/cursor/cursor_grab.png'), grab;
 }
