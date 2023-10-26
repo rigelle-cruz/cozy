@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const audio = new Audio('/assets/music/night.wav');
     let isMuted = false;
 
+    audio.play();
+
     audioIcon.addEventListener('click', () => {
       if (isMuted) {
         audioIcon.classList.remove('muted');

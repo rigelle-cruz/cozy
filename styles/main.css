@@ -135,7 +135,11 @@ body {
 
 .muted {
   cursor: url("/assets/cursor/cursor_select.png"), pointer;
-  background-color: #ff8c00;
+  background-image: url("/assets/icons/mute-icon.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
   position: fixed;
   right: 20px;
   top: 20px;
@@ -144,7 +148,11 @@ body {
 
 .unmuted {
   cursor: url("/assets/cursor/cursor_select.png"), pointer;
-  background-color: #ff8c00;
+  background-image: url("/assets/icons/unmute-icon.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
   position: fixed;
   right: 20px;
   top: 20px;
