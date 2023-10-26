@@ -8,6 +8,16 @@ body {
   cursor: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/cursor/cursor_default.png"), default;
 }
 
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  letter-spacing: 10px;
+  color: #687fca;
+  font-family: "Shantell Sans", cursive;
+}
+
 #intro-screen {
   position: fixed;
   top: 0;
@@ -62,9 +72,39 @@ body {
   cursor: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/cursor/cursor_grabbing.png"), grabbing;
 }
 
+.furniture {
+  border: 4px solid #7f90c9;
+  border-radius: 20px;
+  height: 850px;
+  width: 400px;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+ul li {
+  padding-bottom: 20px;
+  list-style-type: none;
+}
+
+.instructions {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  letter-spacing: 5px;
+  color: #687fca;
+  font-family: "Shantell Sans", cursive;
+  position: fixed;
+  bottom: 0; 
+  right: 0;
+}
+
+
 #wall-decor {
   position: absolute;
-  transform: translate(20px, 368px);
+  transform: translate(20px, 425px);
 }
 #wall-decor img {
   width: 200px;
@@ -72,7 +112,7 @@ body {
 
 #table {
   position: absolute;
-  transform: translate(125px, 150px);
+  transform: translate(-5px, 150px);
 }
 #table img {
   width: 400px;
@@ -80,7 +120,7 @@ body {
 
 #comp-chair {
   position: absolute;
-  transform: translate(50px, 50px);
+  transform: translate(0px, 15px);
 }
 #comp-chair img {
   width: 200px;
@@ -88,7 +128,7 @@ body {
 
 #laptop {
   position: absolute;
-  transform: translate(200px, 260px);
+  transform: translate(95px, 260px);
 }
 
 .laptop-on {

@@ -12,30 +12,42 @@
 
   <div class="room">
 
-    <div id="wall-decor" class="draggable">
-    <img src="assets/furniture/wall-decor.svg" alt="wall-decor">
-    </div>
+    <div class="furniture">
+      <h2>decor</h2>
 
-    <div id="table" class="draggable">
-    <img src="assets/furniture/table.svg" alt="table">
-    </div>
+      <div id="wall-decor" class="draggable">
+      <img src="assets/furniture/wall-decor.svg" alt="wall-decor">
+      </div>
 
-    <div id="laptop" class="draggable">
-      <img id="laptop-image" src="assets/furniture/laptop-off.svg" onclick="switchLaptopImage()" class="laptop-off">
-    </div>
+      <div id="table" class="draggable">
+      <img src="assets/furniture/table.svg" alt="table">
+      </div>
+
+      <div id="laptop" class="draggable">
+        <img id="laptop-image" src="assets/furniture/laptop-off.svg" onclick="switchLaptopImage()" class="laptop-off">
+      </div>
     
-    <div id="comp-chair" class="draggable">
-    <img src="assets/furniture/comp-chair.svg" alt="comp-chair">
-    </div>
+      <div id="comp-chair" class="draggable">
+        <img src="assets/furniture/comp-chair.svg" alt="comp-chair">
+      </div>
 
-    <div id="lamp" class="draggable">
-      <button class="lamp-button">
-        <img id="lamp-image" src="assets/furniture/lamp-off.svg" alt="lamp-off">
-      </button>
-      <div id="light-source"></div>
+      <div id="lamp" class="draggable">
+        <button class="lamp-button">
+          <img id="lamp-image" src="assets/furniture/lamp-off.svg" alt="lamp-off">
+        </button>
+        <div id="light-source"></div>
+      </div>
+
     </div>
 
     <button id="refresh" class="clear-button" onclick="clearRoom()">clear room</button>
+
+    <div class="instructions">
+      <ul>
+        <li>drag to move</li>
+        <li>double click decor to change style</li>
+      </ul>
+    </div>
 
   </div>
 
