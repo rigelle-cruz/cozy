@@ -42,7 +42,7 @@ body {
 }
 
 .room {
-  background-image: url("/assets/room/room.PNG");
+  background-image: url("cozy/assets/room/room.PNG");
   background-size: 1000px;
   background-repeat: no-repeat;
   background-position: center center;
