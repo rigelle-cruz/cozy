@@ -132,3 +132,11 @@ body {
   background-color: #7f90c9;
   color: #ddddfd;
 }
+
+.muted {
+  background-image: url("/assets/music/mute-icon.svg");
+}
+
+.unmuted {
+  background-image: url("/assets/music/unmute-icon.svg");
+}
