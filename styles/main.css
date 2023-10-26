@@ -42,7 +42,7 @@ body {
 }
 
 .room {
-  background-image: url("cozy/assets/room/room.PNG");
+  background-image: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/room/room.PNG");
   background-size: 1000px;
   background-repeat: no-repeat;
   background-position: center center;
