@@ -86,6 +86,28 @@ body {
   width: 200px;
 }
 
+#laptop {
+  position: absolute;
+  transform: translate(200px, 260px);
+}
+
+.laptop-on {
+  cursor: pointer;
+  position: absolute;
+  top: 81px;
+  left: 63px;
+  width: 150px; 
+}
+
+.laptop-off {
+  cursor: pointer;
+  position: absolute;
+  top: 100px;
+  left: 75px;
+  width: 130px; 
+}
+
+
 #lamp {
   position: absolute;
   transform: translate(250px, 70px);
@@ -111,6 +133,8 @@ body {
   cursor: pointer;
   outline: none;
 }
+
+
 
 .clear-button {
   cursor: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/cursor/cursor_select.png"), pointer;
