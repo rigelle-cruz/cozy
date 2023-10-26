@@ -5,7 +5,7 @@ body {
   top: 0;
   left: 0;
   background: #ddddfd;
-  cursor: url("/assets/cursor/cursor_default.png"), default;
+  cursor: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/cursor/cursor_default.png"), default;
 }
 
 #intro-screen {
@@ -22,7 +22,7 @@ body {
 }
 
 #start-button {
-  cursor: url("/assets/cursor/cursor_select.png"), pointer;
+  cursor: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/cursor/cursor_select.png"), pointer;
   background: none;
   border: none;
   outline: none;
@@ -55,11 +55,11 @@ body {
 }
 
 .draggable {
-  cursor: url("/assets/cursor/cursor_grab.png"), grab;
+  cursor: url("hhttps://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/cursor/cursor_grab.png"), grab;
 }
 
 .draggable:active {
-  cursor: url("/assets/cursor/cursor_grabbing.png"), grabbing;
+  cursor: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/cursor/cursor_grabbing.png"), grabbing;
 }
 
 #wall-decor {
@@ -105,7 +105,7 @@ body {
   transform: translate(5px, -120px);
 }
 #lamp .lamp-button {
-  cursor: url("/assets/cursor/cursor_select.png"), pointer;
+  cursor: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/cursor/cursor_select.png"), pointer;
   background: none;
   border: none;
   cursor: pointer;
@@ -113,7 +113,7 @@ body {
 }
 
 .clear-button {
-  cursor: url("/assets/cursor/cursor_select.png"), pointer;
+  cursor: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/cursor/cursor_select.png"), pointer;
   cursor: pointer;
   background: none;
   font-family: "Shantell Sans", cursive;
@@ -134,8 +134,8 @@ body {
 }
 
 .muted {
-  cursor: url("/assets/cursor/cursor_select.png"), pointer;
-  background-image: url("/assets/icons/mute-icon.svg");
+  cursor: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/cursor/cursor_select.png"), pointer;
+  background-image: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/icons/mute-icon.svg");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 50px;
@@ -147,8 +147,8 @@ body {
 }
 
 .unmuted {
-  cursor: url("/assets/cursor/cursor_select.png"), pointer;
-  background-image: url("/assets/icons/unmute-icon.svg");
+  cursor: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/cursor/cursor_select.png"), pointer;
+  background-image: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/icons/unmute-icon.svg");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 50px;
