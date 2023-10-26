@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const audioIcon = document.getElementById('audio-icon');
 
   if (audioIcon) {
-    const audio = new Audio('/assets/music/night.wav');
+    const audio = new Audio('assets/music/night.wav');
     let isMuted = false;
 
     audio.play();
