@@ -55,7 +55,7 @@ body {
 }
 
 .draggable {
-  cursor: url("hhttps://raw.githubusercontent.com/rigelle-cruz/cozy/385b0d70e94d934c5fd0ac44351efcb5c62644f8/assets/cursor/cursor_grab.png"), grab;
+  cursor: url("https://raw.githubusercontent.com/rigelle-cruz/cozy/616aa18592cda3090c8ff3d56ad87d14e362af12/assets/cursor/cursor_grab.png"), grab;
 }
 
 .draggable:active {
