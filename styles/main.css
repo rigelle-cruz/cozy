@@ -126,6 +126,12 @@ ul li {
   right: 0;
 }
 
+@media screen and (max-width: 1125px) {
+  .instructions {
+    display: none;
+  }
+}
+
 
 #wall-decor {
   position: absolute;
