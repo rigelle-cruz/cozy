@@ -15,9 +15,13 @@ document.addEventListener('DOMContentLoaded', function () {
   const audioIcon = document.getElementById('audio-icon');
 
   if (audioIcon) {
-    const audio = new Audio('assets/music/night.wav');
-    let isMuted = false;
+    let audioPath = 'assets/music/night.wav'; 
+    if (window.location.hostname === 'rigelle-cruz.github.io') { 
+      audioPath = '/cozy/assets/music/night.wav'; 
+    }
+    const audio = new Audio(audioPath);
 
+    let isMuted = false;
     audio.play();
 
     audioIcon.addEventListener('click', () => {
