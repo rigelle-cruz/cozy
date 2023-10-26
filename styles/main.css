@@ -134,9 +134,18 @@ body {
 }
 
 .muted {
-  background-image: url("/assets/music/mute-icon.svg");
+  cursor: url("/assets/cursor/cursor_select.png"), pointer;
+  background-color: #ff8c00;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  
 }
 
 .unmuted {
-  background-image: url("/assets/music/unmute-icon.svg");
+  cursor: url("/assets/cursor/cursor_select.png"), pointer;
+  background-color: #ff8c00;
+  position: fixed;
+  right: 20px;
+  top: 20px;
 }

@@ -12,29 +12,23 @@ document.addEventListener('DOMContentLoaded', function () {
     location.reload();
   });
 
-  // Ensure the 'audio-icon' element exists in the HTML before interacting with it
   const audioIcon = document.getElementById('audio-icon');
 
   if (audioIcon) {
-    const audio = new Audio('/assets/music/night.wav'); // Create an audio element
-
-    // Initialize the audio as unmuted
+    const audio = new Audio('/assets/music/night.wav');
     let isMuted = false;
 
     audioIcon.addEventListener('click', () => {
       if (isMuted) {
-        // Unmute the audio
         audioIcon.classList.remove('muted');
         audioIcon.classList.add('unmuted');
         audio.play();
       } else {
-        // Mute the audio
         audioIcon.classList.remove('unmuted');
         audioIcon.classList.add('muted');
         audio.pause();
       }
 
-      // Toggle the muted state
       isMuted = !isMuted;
     });
   }
